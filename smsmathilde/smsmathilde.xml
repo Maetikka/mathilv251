@@ -1,0 +1,29 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulesmsmathilde" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulesmsmathilde" scope="public">
+    <example>Sarah envoie un texto</example>
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+	    
+      <one-of>
+            <item>envoie un texto à </item>
+            <item>envoie un sms à </item>
+            <item>envoie un message à </item>
+        </one-of>
+
+       
+            <one-of>
+                <item>laurent<tag>out.action.destinataire="laurent"; out.action.numero="xx";</tag></item>
+                <item>magali<tag>out.action.destinataire="magali"; out.action.numero="xx";</tag></item>
+                <item>jean<tag>out.action.destinataire="jean"; out.action.numero="xx";</tag></item>
+                <item>batman<tag>out.action.destinataire="batman"; out.action.numero="xx";</tag></item>
+            </one-of>
+            
+     
+       
+
+
+
+  
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/smsmathilde";</tag>
+  </rule>
+</grammar>

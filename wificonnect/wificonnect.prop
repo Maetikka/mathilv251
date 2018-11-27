@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "wificonnect": {
+      "description": "Plugin pour détecter les objet wifi",
+      "version": "0.2"
+      
+    }
+  }
+}

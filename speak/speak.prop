@@ -1,0 +1,7 @@
+{
+  "modules" : { 
+    "speak" : {
+      "description": "parle en fonction des plugs"
+     }
+  }
+}

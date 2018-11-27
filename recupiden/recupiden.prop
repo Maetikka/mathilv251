@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "recupiden": {
+      "description": "Plugin pour recuper les idens sms",
+      "version": "0.2"
+      
+    }
+  }
+}

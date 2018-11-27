@@ -1,0 +1,42 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="wificonnect" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+<rule id="wificonnect" scope="public">
+<tag>out.action=new Object();</tag>
+
+
+<item>Sarah</item>
+<one-of>
+ 
+<item>détecte le portable de laurent<tag>out.action.réponse="je cherche";out.action.ip="192.168.0.28";out.action.oui="laurent est présent sur le réseau";out.action.non="laurent absent du réseau";</tag></item>
+<item>détecte le portable de magalie<tag>out.action.réponse="je cherche";out.action.ip="192.168.0.14";out.action.oui="magali est présente sur le réseau";out.action.non="magali est absent du réseau";</tag></item>
+
+
+<item>surveille le portable de laurent<tag>out.action.réponse="je surveille laurent";out.action.ip="192.168.0.28";out.action.oui="laurent est arrivé";out.action.non="laurent est absent du réseau";out.action.surveillance="on";out.action.timersortie="120";out.action.timerfrequence="60";out.action.sequence="Mathilde il est quelle heure;Mathilde la météo à toulouse";</tag></item>
+
+<item>surveille la tablette de laurent<tag>out.action.réponse="je surveille la tablette";out.action.ip="192.168.0.29";out.action.oui="tablette est arrivé";out.action.non="tablette est absent du réseau";out.action.surveillance="on";out.action.timersortie="120";out.action.timerfrequence="60";</tag></item>
+</one-of>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/wificonnect";</tag>
+</rule>
+</grammar>

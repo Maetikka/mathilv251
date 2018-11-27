@@ -1,0 +1,13 @@
+{
+  "modules" : { 
+    "receiveSMS":     {
+      "description": "Client for receiveSMS",
+      "version"    : "1.0",
+      "key"        : "o.",
+      "appli"	   : "Google+;sms_changed;Hangouts",
+      "codesms"    : "0123456789",
+      "timersmsdebut" :"8",
+      "timersmsfin" : "20"
+    }
+  }
+}

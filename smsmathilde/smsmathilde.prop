@@ -1,0 +1,12 @@
+{
+  "modules" : { 
+    "smsmathilde"  : {
+      "description"			: "Envoie des messages",
+      "version"    			: "1.0",
+	  "auteur"				: "Batayman",
+      "access_token"		: "o.xx",
+	  "target_device_iden"	: "xx",
+	  "source_user_iden"	: "xx"
+    }
+  }
+}

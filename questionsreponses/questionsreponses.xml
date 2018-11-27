@@ -1,0 +1,19 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="questionsreponses" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="questionsreponses" scope="public">
+<example>Sarah que dois tu répondre.....</example>
+<tag>out.action=new Object(); </tag>
+
+<item>Sarah</item>
+<one-of>
+ 
+<item>qui est le meilleur<tag>out.action.réponse="c'est laurent";</tag></item>
+<item>la couleur du ciel<tag>out.action.réponse="regarde dehors conno";</tag></item>
+<item>de quelle couleur est la lune<tag>out.action.réponse="elle est blanche";</tag></item>
+<item>comment vas-tu<tag>out.action.réponse="je vais bien";</tag></item>
+<item>j'ai quel âge<tag>out.action.réponse="tu as 40 ans";</tag></item>
+<item>qui tu es<tag>out.action.réponse="je suis un robot";</tag></item>
+ 
+</one-of>
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/questionsreponses";</tag>
+</rule>
+</grammar>

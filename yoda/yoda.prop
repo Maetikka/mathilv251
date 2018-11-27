@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "yoda": {
+      "description": "Plugin pour parler façon yoda",
+      "version": "0.2"
+      
+    }
+  }
+}

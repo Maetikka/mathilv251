@@ -1,0 +1,143 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleLAZYXBMC_temp" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="ruleLAZYXBMC_temp" scope="public">
+<tag>out.action=new Object(); </tag>
+<tag>out.action.xbmc="video" </tag>
+<one-of>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Le capitan<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le capitan");</tag></item>
+<item>Chantons sous la pluie<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Chantons sous la pluie");</tag></item>
+<item>Le trou normand<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le trou normand");</tag></item>
+<item>Le boulanger de Valorgue<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le boulanger de Valorgue");</tag></item>
+<item>Stalag dix-sept<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Stalag 17");</tag></item>
+<item>Jules Verne's 20000 Leagues Under the Sea<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Jules Verne's 20000 Leagues Under the Sea");</tag></item>
+<item>Les jeunes années d'une reine<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les jeunes années d'une reine");</tag></item>
+<item>La Main au collet<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Main au collet");</tag></item>
+<item>Szakadék<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Szakadék");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Le pont de la rivière Kwaï<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le pont de la rivière Kwaï");</tag></item>
+<item>Archimède, le clochard<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Archimède, le clochard");</tag></item>
+<item>Rio Bravo<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Rio Bravo");</tag></item>
+<item>Le baron de l'écluse<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le baron de l'écluse");</tag></item>
+<item>Hatari!<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Hatari!");</tag></item>
+<item>Le jour le plus long<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le jour le plus long");</tag></item>
+<item>Un singe en hiver<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Un singe en hiver");</tag></item>
+<item>La Cuisine au Beurre<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Cuisine au Beurre");</tag></item>
+<item>La Grande Évasion<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Grande Évasion");</tag></item>
+<item>La taverne de l'Irlandais<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La taverne de l'Irlandais");</tag></item>
+<item>Les Tontons flingueurs<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Tontons flingueurs");</tag></item>
+<item>Pouic Pouic<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Pouic Pouic");</tag></item>
+<item>Cent mille dollars au soleil<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Cent mille dollars au soleil");</tag></item>
+<item>Faites sauter la banque!<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Faites sauter la banque!");</tag></item>
+<item>Grand méchant loup appelle<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Grand méchant loup appelle");</tag></item>
+<item>La Métamorphose des cloportes<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Métamorphose des cloportes");</tag></item>
+<item>Le Corniaud<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Corniaud");</tag></item>
+<item>La Grande vadrouille<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Grande vadrouille");</tag></item>
+<item>El Dorado<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("El Dorado");</tag></item>
+<item>Les Grandes Vacances<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Grandes Vacances");</tag></item>
+<item>Le Petit Baigneur<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Petit Baigneur");</tag></item>
+<item>Hibernatus<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Hibernatus");</tag></item>
+<item>Le Cerveau<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Cerveau");</tag></item>
+<item>Blushing Charlie<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Blushing Charlie");</tag></item>
+<item>De l'or pour les braves<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("De l'or pour les braves");</tag></item>
+<item>Rio Lobo<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Rio Lobo");</tag></item>
+<item>La folie des grandeurs<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La folie des grandeurs");</tag></item>
+<item>Le drapeau noir flotte sur la marmite<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le drapeau noir flotte sur la marmite");</tag></item>
+<item>Le viager<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le viager");</tag></item>
+<item>Les Aventures de Rabbi Jacob<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Aventures de Rabbi Jacob");</tag></item>
+<item>Les cordes de la potence<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les cordes de la potence");</tag></item>
+<item>Les cordes de la potence<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les cordes de la potence");</tag></item>
+<item>Le sauvage<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le sauvage");</tag></item>
+<item>Leonor<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Leonor");</tag></item>
+<item>Une bible et un fusil<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Une bible et un fusil");</tag></item>
+<item>I, Tintin<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("I, Tintin");</tag></item>
+<item>L'aile ou la cuisse<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("L'aile ou la cuisse");</tag></item>
+<item>Le Combat des Maîtres<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Combat des Maîtres");</tag></item>
+<item>Inspecteur La Bavure<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Inspecteur La Bavure");</tag></item>
+<item>Beau-père<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Beau-père");</tag></item>
+<item>Les babas cool<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les babas cool");</tag></item>
+<item>The Making of The Empire Strikes Back<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("The Making of The Empire Strikes Back");</tag></item>
+<item>Viens chez moi, j'habite chez une copine<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Viens chez moi, j'habite chez une copine");</tag></item>
+<item>Dark crystal<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Dark crystal");</tag></item>
+<item>Deux heures moins le quart avant Jésus Christ<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Deux heures moins le quart avant Jésus Christ");</tag></item>
+<item>Le Père Noël est une ordure<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Père Noël est une ordure");</tag></item>
+<item>Tattoo Ari<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Tattoo Ari");</tag></item>
+<item>Banzaï<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Banzaï");</tag></item>
+<item>Le Ruffian<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Ruffian");</tag></item>
+<item>Scarface<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Scarface");</tag></item>
+<item>Marche à l'ombre<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Marche à l'ombre");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Labyrinthe<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Labyrinthe");</tag></item>
+<item>Les Frères Pétard<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Frères Pétard");</tag></item>
+<item>Full Metal Jacket<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Full Metal Jacket");</tag></item>
+<item>Qui veut la peau de Roger Rabbit ?<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Qui veut la peau de Roger Rabbit ?");</tag></item>
+<item>Sans peur et sans reproche<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Sans peur et sans reproche");</tag></item>
+<item>Cyrano de Bergerac<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Cyrano de Bergerac");</tag></item>
+<item>La Bande à Picsou, le film  Le Trésor de la lampe perdue<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Bande à Picsou, le film : Le Trésor de la lampe perdue");</tag></item>
+<item>L'embrouille est dans le sac<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("L'embrouille est dans le sac");</tag></item>
+<item>Rasta Rockett<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Rasta Rockett");</tag></item>
+<item>La Guerre des boutons, ça recommence<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Guerre des boutons, ça recommence");</tag></item>
+<item>Un indien dans la ville<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Un indien dans la ville");</tag></item>
+<item>Heat<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Heat");</tag></item>
+<item>Le Village des damnés<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Village des damnés");</tag></item>
+<item>Usual suspects<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Usual suspects");</tag></item>
+<item>Flubber<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Flubber");</tag></item>
+<item>Le Cinquième Élément<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Cinquième Élément");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Armageddon<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Armageddon");</tag></item>
+<item>Le Dîner de cons<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Dîner de cons");</tag></item>
+<item>Star Games<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Star Games");</tag></item>
+<item>Haute voltige<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Haute voltige");</tag></item>
+<item>La Ligne verte<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Ligne verte");</tag></item>
+<item>La neuvième porte<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La neuvième porte");</tag></item>
+<item>Sixième Sens<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Sixième Sens");</tag></item>
+<item>Will to Live<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Will to Live");</tag></item>
+<item>À l'aube du sixème jour<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("À l'aube du 6ème jour");</tag></item>
+<item>Gladiator<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Gladiator");</tag></item>
+<item>Un crime au Paradis<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Un crime au Paradis");</tag></item>
+<item>In America<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("In America");</tag></item>
+<item>Le Vaisseau de l'angoisse<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Vaisseau de l'angoisse");</tag></item>
+<item>Freaky Friday<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Freaky Friday");</tag></item>
+<item>Identity<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Identity");</tag></item>
+<item>La ligue des gentlemen extraordinaires<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La ligue des gentlemen extraordinaires");</tag></item>
+<item>Girl Next Door<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Girl Next Door");</tag></item>
+<item>Hidalgo<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Hidalgo");</tag></item>
+<item>I, Robot<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("I, Robot");</tag></item>
+<item>L'enquête corse<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("L'enquête corse");</tag></item>
+<item>Le Terminal<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Le Terminal");</tag></item>
+<item>Les Choristes<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Choristes");</tag></item>
+<item>Les Dalton<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Dalton");</tag></item>
+<item>Starsky  and  Hutch<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Starsky &amp; Hutch");</tag></item>
+<item>Suspect Zero<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Suspect Zero");</tag></item>
+<item>Boudu<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Boudu");</tag></item>
+<item>Iznogoud  Calife à la place du Calife<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Iznogoud : Calife à la place du Calife");</tag></item>
+<item>King Kong<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("King Kong");</tag></item>
+<item>L'Exorcisme d'Emily Rose<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("L'Exorcisme d'Emily Rose");</tag></item>
+<item>La Crypte<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("La Crypte");</tag></item>
+<item>Lord of War<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Lord of War");</tag></item>
+<item>The Island<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("The Island");</tag></item>
+<item>Eragon<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Eragon");</tag></item>
+<item>Lucas, fourmi malgré lui<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Lucas, fourmi malgré lui");</tag></item>
+<item>Nos jours heureux<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Nos jours heureux");</tag></item>
+<item>Poséidon<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Poséidon");</tag></item>
+<item>Souris City<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Souris City");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Ali_N vs. Predator<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Ali_N vs. Predator");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Sur la piste du Marsupilami<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Sur la piste du Marsupilami");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Qu'est-ce qu'on a fait au Bon Dieu ?<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Qu'est-ce qu'on a fait au Bon Dieu ?");</tag></item>
+<item>Les Minions<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Les Minions");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>Our President<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("Our President");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item><tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("");</tag></item>
+<item>name<tag>out.action.action="chercheitem";out.action.parameters=encodeURIComponent("name");</tag></item>
+</one-of>
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/xbmc";</tag>
+</rule>
+</grammar>

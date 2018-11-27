@@ -1,0 +1,23 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="yoda" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+<rule id="yoda" scope="public">
+<tag>out.action=new Object();</tag>
+
+ <item>Sarah</item>
+
+    <one-of>
+	
+	
+	
+	<!-- affichage écran -->
+      	 
+ 	  <item>parle comme yoda</item>
+ 	 <item>parle comme Yoda</item>
+		 
+
+    </one-of>
+
+
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/yoda";</tag>
+</rule>
+</grammar>
