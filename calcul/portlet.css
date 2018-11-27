@@ -1,0 +1,9 @@
+.plugin-gridster.calcul .front {
+  background: #55b5e6 url('images/images01.jpg') center 34px;
+  background-size:   72px 81px;
+  background-repeat: no-repeat;
+}
+
+.plugin-gridster.calcul .back {
+  background: #55b5e6;
+}

@@ -1,0 +1,40 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="alarme" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+<rule id="alarme" scope="public">
+<tag>out.action=new Object();</tag>
+   
+<item>Sarah</item>
+   
+    
+    	<one-of>
+    
+			<item>une souris verte<tag>out.action.alarme="off";</tag></item>
+    		<item>enclenche l'alarme sonore<tag>out.action.alarme="on";</tag></item>
+   						
+    	</one-of>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/alarme";</tag>
+</rule>
+</grammar>

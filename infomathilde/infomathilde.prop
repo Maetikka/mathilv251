@@ -1,0 +1,21 @@
+{
+  "modules" : {
+    "infomathilde"  : {
+      "name"       : "infomathilde",
+      "description": "info par mots cles",
+      "version"    : "0.1",
+      "active"		: "off"
+     
+    }
+  },
+
+
+
+  "cron" : {
+    "infomathilde" :   { 
+      "name"       : "infomathilde",
+      "description": "cron pour faire parler Mathilde à des heures précise",
+      "time"       : "*/30 * * * *"
+    }
+  }
+}

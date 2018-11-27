@@ -1,0 +1,9 @@
+{
+  "cron" : {
+    "courtoisie" :   { 
+      "name"       : "courtoisie",
+      "description": "cron pour faire parler Mathilde à des heures précise",
+      "time"       : "5 0 * * *"
+    }
+  }
+}

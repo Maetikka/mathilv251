@@ -1,0 +1,54 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="adismoi" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="adismoi" scope="public"><example>Sarah lance google</example><tag>out.action=new Object(); </tag>
+<item>Sarah</item>
+<one-of>
+<item>dis-moi les phrases de</item>
+</one-of>
+<one-of>
+<item>adismoi<tag>out.action.plugduxml="adismoi"</tag></item>
+<item>alarme<tag>out.action.plugduxml="alarme"</tag></item>
+<item>bonjour<tag>out.action.plugduxml="bonjour"</tag></item>
+<item>calcul<tag>out.action.plugduxml="calcul"</tag></item>
+<item>cortana<tag>out.action.plugduxml="cortana"</tag></item>
+<item>coursesmathilde<tag>out.action.plugduxml="coursesmathilde"</tag></item>
+<item>CubeRemote<tag>out.action.plugduxml="CubeRemote"</tag></item>
+<item>cyrano<tag>out.action.plugduxml="cyrano"</tag></item>
+<item>deezer<tag>out.action.plugduxml="deezer"</tag></item>
+<item>demarrage<tag>out.action.plugduxml="demarrage"</tag></item>
+<item>ecriture<tag>out.action.plugduxml="ecriture"</tag></item>
+<item>epeler<tag>out.action.plugduxml="epeler"</tag></item>
+<item>geolocalisation<tag>out.action.plugduxml="geolocalisation"</tag></item>
+<item>horoscopemathilde<tag>out.action.plugduxml="horoscopemathilde"</tag></item>
+<item>hue<tag>out.action.plugduxml="hue"</tag></item>
+<item>infomathilde<tag>out.action.plugduxml="infomathilde"</tag></item>
+<item>interphone<tag>out.action.plugduxml="interphone"</tag></item>
+<item>jarvis<tag>out.action.plugduxml="jarvis"</tag></item>
+<item>Learning<tag>out.action.plugduxml="Learning"</tag></item>
+<item>lectureenfant<tag>out.action.plugduxml="lectureenfant"</tag></item>
+<item>mathildeurl<tag>out.action.plugduxml="mathildeurl"</tag></item>
+<item>merci<tag>out.action.plugduxml="merci"</tag></item>
+<item>meteomathilde<tag>out.action.plugduxml="meteomathilde"</tag></item>
+<item>minuteurmathilde<tag>out.action.plugduxml="minuteurmathilde"</tag></item>
+<item>multimedia<tag>out.action.plugduxml="multimedia"</tag></item>
+<item>musique<tag>out.action.plugduxml="musique"</tag></item>
+<item>navigation<tag>out.action.plugduxml="navigation"</tag></item>
+<item>noubliezpas<tag>out.action.plugduxml="noubliezpas"</tag></item>
+<item>programmemathilde<tag>out.action.plugduxml="programmemathilde"</tag></item>
+<item>progtv2<tag>out.action.plugduxml="progtv2"</tag></item>
+<item>questionsreponses<tag>out.action.plugduxml="questionsreponses"</tag></item>
+<item>radio<tag>out.action.plugduxml="radio"</tag></item>
+<item>receiveSMS<tag>out.action.plugduxml="receiveSMS"</tag></item>
+<item>recupiden<tag>out.action.plugduxml="recupiden"</tag></item>
+<item>reveil1<tag>out.action.plugduxml="reveil1"</tag></item>
+<item>scribe<tag>out.action.plugduxml="scribe"</tag></item>
+<item>smsmathilde<tag>out.action.plugduxml="smsmathilde"</tag></item>
+<item>speak<tag>out.action.plugduxml="speak"</tag></item>
+<item>tempomathilde<tag>out.action.plugduxml="tempomathilde"</tag></item>
+<item>time<tag>out.action.plugduxml="time"</tag></item>
+<item>traduction<tag>out.action.plugduxml="traduction"</tag></item>
+<item>wificonnect<tag>out.action.plugduxml="wificonnect"</tag></item>
+<item>wiki<tag>out.action.plugduxml="wiki"</tag></item>
+<item>xbmc<tag>out.action.plugduxml="xbmc"</tag></item>
+<item>yoda<tag>out.action.plugduxml="yoda"</tag></item>
+</one-of>
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/adismoi";</tag></rule> </grammar>

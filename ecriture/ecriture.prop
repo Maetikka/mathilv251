@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "ecriture": {
+      "description": "Plugin pour écrire dans les cases",
+      "version": "0.2"
+      
+    }
+  }
+}

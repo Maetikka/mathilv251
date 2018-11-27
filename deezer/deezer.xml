@@ -1,0 +1,26 @@
+
+
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruledeezer" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+ 
+  <rule id="ruledeezer" scope="public">
+    <example>SARAH joue de la musique Rock</example>
+    <tag>out.action=new Object(); </tag>
+    <item>SARAH</item>
+    
+    <one-of>
+      <!--Démarre une playlist-->
+      <item>lance la playlist Manau<tag>out.action.deezertag="525165225";</tag></item>
+      <item>lance la playlist Aznavour<tag>out.action.deezertag="4951801884";</tag></item>
+      <item>lance la playlist Michael Jackson<tag>out.action.deezertag="4950813204";</tag></item>
+     
+     <!--Cherche un Artiste-->
+     <item>lance Deezer avec<tag>out.action.deezertag="0";out.action.deezerPhrase="lance Deezer avec";</tag></item>
+
+
+      <item>arrête Deezer<tag>out.action.deezertag="0";</tag></item>
+      </one-of>
+    
+      <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/deezer";</tag>
+  </rule>
+   
+</grammar>

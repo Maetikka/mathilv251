@@ -1,0 +1,50 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulejarvis" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+  <rule id="rulejarvis" scope="public">
+
+    <tag>out.action=new Object(); </tag>
+
+
+  
+
+
+    <one-of>
+
+
+        <item>et merde<tag>out.action.val="1"</tag></item>
+        <item>ta gueule<tag>out.action.val="1"</tag></item>
+        <item>oh p***** de merde<tag>out.action.val="1"</tag></item>
+        <item>p***** de merde<tag>out.action.val="1"</tag></item>
+        <item>ta gueule<tag>out.action.val="1"</tag></item>
+        <item>p*****<tag>out.action.val="1"</tag></item>
+
+        <item>il y a quelqu'un<tag>out.action.val="2"</tag></item>
+
+        <item>silence<tag>out.action.val="3"</tag></item>
+          
+        <item>du calme<tag>out.action.val="4"</tag></item>
+        <item>waouh<tag>out.action.val="4"</tag></item>
+        <item>Warcq <tag>out.action.val="4"</tag></item>
+        
+        <item>ça suffit<tag>out.action.val="5"</tag></item> 
+
+        <item>ça marche pas<tag>out.action.val="6"</tag></item>
+
+       
+        <item>c'est quoi ce bordel<tag>out.action.val="7"</tag></item>
+
+    
+
+  
+
+
+     
+    </one-of>
+
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/jarvis";</tag>
+
+  </rule> 
+
+</grammar>    
+

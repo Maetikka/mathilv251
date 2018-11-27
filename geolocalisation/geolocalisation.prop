@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "geolocalisation": {
+      "description": "Plugin pour trouver ou sont vos devices",
+      "version": "0.2"
+      
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "interphone": {
+      "description": "Plugin pour interphone",
+      "version": "0.2"
+      
+    }
+  }
+}

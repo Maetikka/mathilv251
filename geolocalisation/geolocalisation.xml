@@ -1,0 +1,42 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="geolocalisation" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+<rule id="geolocalisation" scope="public">
+<tag>out.action=new Object();</tag>
+
+
+<item>Sarah</item>
+ 
+ <one-of>
+<item>où se trouve Laurent<tag>out.action.RecherchePersonne="192.168.0.10";</tag></item>
+
+<item>où se trouve Éric<tag>out.action.RecherchePersonne="192.168.0.28";</tag></item>
+
+
+ </one-of>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/geolocalisation";</tag>
+</rule>
+</grammar>

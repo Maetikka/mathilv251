@@ -1,0 +1,20 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulebonjour" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulebonjour" scope="public">
+    <example>Sarah dit bonjour Alex</example>
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+    <one-of>
+    <item>dis bonjour à Laurent<tag>out.action.reponsebonjour="bonjour laurent comment vas tu";</tag></item>
+    <item>dis bonjour à Magalie<tag>out.action.reponsebonjour="content de t'entendre Magalie";</tag></item>
+    <item>bonjour<tag>out.action.reponsebonjour="Bonjour à toi";</tag></item>
+    
+    <item>dis bonjour à<tag>out.action.bonjour="0";out.action.bonjourplus="enchanté de vous voir";</tag></item>
+ 
+    
+    
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/bonjour";</tag>
+  </rule>
+</grammar> 

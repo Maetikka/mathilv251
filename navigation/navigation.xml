@@ -1,0 +1,67 @@
+ 	<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulenavigation" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulenavigation" scope="public">
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+      
+      <item>relance ton système<tag>out.action.need="s_restart"</tag></item>
+	
+	<!-- affichage écran -->
+ 	  <item>affiche le bureau<tag>out.action.valeur='win min "alltopnodesktop"'</tag></item>
+ 	  <item>va sur le bureau<tag>out.action.valeur='win min "alltopnodesktop"'</tag></item>
+	 
+	 <!-- copie écran -->	
+	   <item>copie l'écran<tag>out.action.valeur="savescreenshot *clipboard*"</tag></item>
+	   	  
+	  <!-- page internet -->
+	  <item>actualise<tag>out.action.valeur="sendkey f5 press"</tag></item>	  
+	  <item>fermer l'onglet<tag>out.action.valeur="sendkey ctrl down;sendkey w press;sendkey ctrl up"</tag></item>		  		 
+
+	  <item>onglet suivant<tag>out.action.valeur="sendkey ctrl down;sendkey tab press;sendkey ctrl up"</tag></item>
+	  <item>onglet précédent<tag>out.action.valeur="sendkey ctrl down;sendkey shift down;sendkey tab press;sendkey shift up;sendkey ctrl up"</tag></item>
+	  
+	  <item>touche valide<tag>out.action.valeur="sendkey enter press"</tag></item>
+	
+	  <item>touche entrée<tag>out.action.valeur="sendkey enter press"</tag></item>
+
+	  <!-- dossier explorateur -->
+	  <item>affiche le dossier images<tag>out.action.valeurchemin="C:\\Users\\famille\\Pictures"</tag></item>	 
+	  <item>affiche le dossier vidéos<tag>out.action.valeurchemin="C:\\Users\\famille\\Videos"</tag></item>	
+	  <item>affiche le dossier musiques<tag>out.action.valeurchemin="C:\\Users\\famille\\Music"</tag></item>
+	  <item>affiche le dossier document<tag>out.action.valeurchemin="C:\\Users\\famille\\Documents"</tag></item>		  	  
+	  <item>affiche le dossier téléchargement<tag>out.action.valeurchemin="C:\\Users\\famille\\Downloads"</tag></item>
+
+	<!-- son -->
+ 	  <item>coupe le son<tag>out.action.valeur="mutesysvolume 1"</tag></item>
+ 	  <item>mets le son<tag>out.action.valeur="mutesysvolume 0"</tag></item>
+	  
+	<!-- gestion du PC --> 
+	  <item>éteint le PC<tag>out.action.valeur="initshutdown {' EN COURS DE FERMETURE '} {5} {force}"</tag></item>	  
+	  
+	  <item>redémarre le PC<tag>out.action.valeur="initshutdown {' EN COURS DE RELANCE '} {5} {force} {reboot}"</tag><tag>out.action._attributes.tts = "je relance le pc"</tag></item>
+	
+	  
+	 <!-- gestion des périphériques -->
+	 
+	 <item>éteint l'écran<tag>out.action.valeur="monitor off"</tag></item>
+	 <item>allume l'écran<tag>out.action.valeur="monitor on"</tag></item>
+	 
+	 <item>ouvre le lecteur dvd<tag>out.action.valeur="cdrom open"</tag></item>
+	 <item>ferme le lecteur dvd<tag>out.action.valeur="cdrom close"</tag></item>
+	 
+	<!-- gestion des url précise non accessible avec plugin url -->
+	 
+	<item>va sur la communauté<tag>out.action.valeururl="https://plus.google.com/communities/100263029160689926193"</tag></item>	 
+
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/navigation";</tag>
+  </rule> 
+</grammar>
+
+
+
+
+

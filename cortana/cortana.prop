@@ -1,0 +1,12 @@
+{
+  "modules" : { 
+    "cortana"  : {
+      "description": "lance la reco avec ok google",
+      "version"    : "26.0",
+      "Auteur"     : "laurent jeannel",
+      "Categorie"  : "Speech/reco",
+      "debug"	   : "off",
+      "nommathilde" : "Mathilde"
+    }
+  }
+}

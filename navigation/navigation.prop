@@ -1,0 +1,8 @@
+{
+  "modules": { 
+    "navigation": {
+      "description": "Actions navigation dossier & internet & url précise",
+      "version": "1.00"
+    }
+  }
+}

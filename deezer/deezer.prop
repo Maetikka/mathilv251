@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "deezer":     {
+      "description": "Joue vos playlists de Deezer sur Deezer pour Mathilde",
+      "version"    : "2.0"
+    }
+  }
+}

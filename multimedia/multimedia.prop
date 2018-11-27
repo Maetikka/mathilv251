@@ -1,0 +1,9 @@
+{
+  "modules": { 
+    "multimedia": {
+      "description": "Plugin pour multimedia",
+      "version": "0.2"
+      
+    }
+  }
+}

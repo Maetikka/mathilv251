@@ -1,0 +1,56 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="musique" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+
+<rule id="musique" scope="public">
+<tag>out.action=new Object();</tag>
+
+
+
+
+
+<item>Sarah</item>
+
+    <one-of>
+    	
+      	
+    	<item>mets de la musique dans la chambre<tag>out.action.MusiqueLieux="192.168.0.13";</tag></item>
+    	<item>mets de la musique dans le bureau<tag>out.action.MusiqueLieux="192.168.0.10";</tag></item>
+    	<item>mets de la musique chez Jean<tag>out.action.MusiqueLieux="192.168.0.101";</tag></item>
+		
+
+		<item>coupe la musique dans la chambre<tag>out.action.ArretMusiqueLieux="192.168.0.13";</tag></item>
+    
+      	<item>coupe la musique dans le bureau<tag>out.action.ArretMusiqueLieux="192.168.0.10";</tag></item>
+ 
+    	<item>coupe la musique chez Jean<tag>out.action.ArretMusiqueLieux="192.168.0.101";</tag></item>
+    	
+
+    	<item>coupe la musique<tag>out.action.ArretMusiqueLieux="stop";</tag></item>
+      	<item>musique</item>
+      
+    </one-of>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/musique";</tag>
+</rule>
+</grammar>

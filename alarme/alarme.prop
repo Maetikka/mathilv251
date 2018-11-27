@@ -1,0 +1,13 @@
+{
+  "modules": { 
+    "alarme": {
+      "description": "Plugin pour déclencher une alarme sonore",
+      "version": "0.2",
+      "timer" : "60",
+      "confidence" : "0.3",
+      "motdepasse" : "une souris verte",
+      "qui" : "laurent",
+      "numero" : "0625820278"
+    }
+  }
+}
