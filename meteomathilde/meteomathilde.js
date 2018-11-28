@@ -45,14 +45,14 @@ var request = require('request');
 												//SCRIBE = SARAH.context.scribe;
 												//SCRIBE.texteplugin(valeurduspeak);
 												//console.log(valeurduspeak,'eeeeeeeeee',valeurduspeak.search("Pluie"))
-												if(valeurduspeak.search(/Ora/gi)>-1){var icone="icones/Orages.gif",myIPretour}
-												if(valeurduspeak.search(/Pluie/gi)>-1){var icone="icones/Pluie.gif",myIPretour}
-												if(valeurduspeak.search(/Nuageux/gi)>-1){var icone="icones/Variable.gif",myIPretour}
-												if(valeurduspeak.search(/Soleil/gi)>-1){var icone="icones/Soleil.gif",myIPretour}	
-												if(valeurduspeak.search(/couvert/ig)>-1){var icone="icones/Couvert.gif",myIPretour}
-												if(valeurduspeak.search(/clair/ig)>-1){var icone="icones/Clair.gif",myIPretour}
-												if(valeurduspeak.search(/neige/ig)>-1){var icone="icones/Neige.gif",myIPretour}	
-												if(icone==undefined){var icone="Undefined.gif",myIPretour}	
+												if(valeurduspeak.search(/Ora/gi)>-1){var icone="icones/Orages.gif"}
+												if(valeurduspeak.search(/Pluie/gi)>-1){var icone="icones/Pluie.gif"}
+												if(valeurduspeak.search(/Nuageux/gi)>-1){var icone="icones/Variable.gif"}
+												if(valeurduspeak.search(/Soleil/gi)>-1){var icone="icones/Soleil.gif"}	
+												if(valeurduspeak.search(/couvert/ig)>-1){var icone="icones/Couvert.gif"}
+												if(valeurduspeak.search(/clair/ig)>-1){var icone="icones/Clair.gif"}
+												if(valeurduspeak.search(/neige/ig)>-1){var icone="icones/Neige.gif"}	
+												if(icone==undefined){var icone="Undefined.gif"}	
 												SCRIBE.icone(icone,myIPretour);console.log(icone+"icone envoyé"+myIPretour+"dd")
 												
 
@@ -182,15 +182,15 @@ function meteodujour(url,scrapinfo0){
 												SCRIBE = SARAH.context.scribe;
 												SCRIBE.texteplugin(valeurduspeak);
 												//console.log(valeurduspeak,'eeeeeeeeee',valeurduspeak.search("Pluie"))
-												if(valeurduspeak.search(/Ora/ig)>-1){var icone="icones/Orages.gif",myIPretour}
-												if(valeurduspeak.search(/Pluie/ig)>-1){var icone="icones/Pluie.gif",myIPretour}
-												if(valeurduspeak.search(/Nuageux/ig)>-1){var icone="icones/Variable.gif",myIPretour}
-												if(valeurduspeak.search(/Soleil/ig)>-1){var icone="icones/Soleil.gif",myIPretour}
-												if(valeurduspeak.search(/couvert/ig)>-1){var icone="icones/Couvert.gif",myIPretour}
-												if(valeurduspeak.search(/clair/ig)>-1){var icone="icones/Clair.gif",myIPretour}
-												if(valeurduspeak.search(/neige/ig)>-1){var icone="icones/Neige.gif",myIPretour}	
-												if(icone==undefined){var icone="Undefined.gif",myIPretour}	
-													console.log('icone : '+icone)
+												if(valeurduspeak.search(/Ora/ig)>-1){var icone="icones/Orages.gif"}
+												if(valeurduspeak.search(/Pluie/ig)>-1){var icone="icones/Pluie.gif"}
+												if(valeurduspeak.search(/Nuageux/ig)>-1){var icone="icones/Variable.gif"}
+												if(valeurduspeak.search(/Soleil/ig)>-1){var icone="icones/Soleil.gif"}
+												if(valeurduspeak.search(/couvert/ig)>-1){var icone="icones/Couvert.gif"}
+												if(valeurduspeak.search(/clair/ig)>-1){var icone="icones/Clair.gif"}
+												if(valeurduspeak.search(/neige/ig)>-1){var icone="icones/Neige.gif"}	
+												if(icone==undefined){var icone="Undefined.gif"}	
+													console.log('icone : '+icone+myIPretour)
 												SCRIBE.icone(icone,myIPretour);
 												SCRIBE.activePlugin('MéTéo Mondiale');
 
