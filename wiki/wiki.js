@@ -68,7 +68,7 @@ function encart(search,phrasedepart,phrasesmotscles){
 
  
   var searchencart=search.replace(new RegExp(' ', 'ig'),"+")
-   console.log('test encart '+ search+phrasedepart+"55555555555555555555555555555555555555555555555")
+   console.log('test encart '+ search+" "+phrasedepart+"55555555555555555555555555555555555555555555555")
   //var url = "https://www.google.fr/search?hl=fr&q="+searchencart+"&gws_rd=ssl"
     var url="https://www.google.fr/search?q="+searchencart
                // https://www.google.fr/search?q=substantif
@@ -78,7 +78,7 @@ function encart(search,phrasedepart,phrasesmotscles){
   request({'uri':url, 'headers':{'Accept-Charset': 'windows-1252'},'encoding':'binary' }, function (error, response, html) {
                             $ = cheerio.load(html);
                            // var rechercheencart= $('.Z0LcW > span:nth-child(1) > span:nth-child(1)').text();console.log("trouvé en encart : "+rechercheencart);
-console.log($('.g .e').text(),"trouvé en -2")
+console.log($('.g .e').text(),"trouvé en -2 pour météo")
 if($('.g .e').text().length>0){
 var meteo=$('.g .e').text()
 var matchmeto=(meteo.search(new RegExp('%',"gi")))
@@ -133,7 +133,16 @@ var matchmeto=(meteo.search(new RegExp('%',"gi")))
 console.log('pas de météo');
 //ScribeSpeak('pas de météo connus');callback();return false
 }//fin if
+
+
+
+
+///////////:les encarts
+
+console.log(" on test les encarts")
 var textemoirewiki="voici ta réponse : ; "
+
+
 var rechercheencart=$('.FSP1Dd').text(); console.log('trouver en -4 : ', $('.FSP1Dd').text(),' !!!!')
  if(rechercheencart.length>0){
                             //ScribeSpeak();SCRIBE.texteplugin($('.FSP1Dd').text());
@@ -149,9 +158,9 @@ var rechercheencart=$('.F7uZG').text(); console.log('trouver en -3: ', $('.F7uZG
                         textemoirewiki=textemoirewiki+$('.F7uZG').text()+";"
                              
 console.log("textemoirewiki"+" réponse")
-                        ScribeSpeak(textemoirewiki)
-                             callback()
-                            return false
+                       // ScribeSpeak(textemoirewiki)
+                          //   callback()
+                          //  return false
                            }
 
 var rechercheencart=$('.V7Q8V').text(); console.log('trouver en -2 : ', $('.V7Q8V').text(),' !!!!')
@@ -159,14 +168,31 @@ var rechercheencart=$('.V7Q8V').text(); console.log('trouver en -2 : ', $('.V7Q8
                             //ScribeSpeak();SCRIBE.texteplugin($('.V7Q8V').text());
                         textemoirewiki=textemoirewiki+$('.V7Q8V').text()
                         console.log("textemoirewiki"+" réponse")
-                        ScribeSpeak(textemoirewiki)
-                             callback()
-                            return false
+                       // ScribeSpeak(textemoirewiki)
+                          //   callback()
+                          //  return false
                            }
 
 
+var rechercheencart=$('.mraOPb').text(); console.log('trouver en -2.1 : ', $('.mraOPb').text(),' !!!!')
+ if(rechercheencart.length>0){
+                            //ScribeSpeak();SCRIBE.texteplugin($('.V7Q8V').text());
+                        textemoirewiki=textemoirewiki+$('.Z0LcW').text()
+                        console.log("textemoirewiki"+" réponse")
+                       // ScribeSpeak(textemoirewiki)
+                          //   callback()
+                          //  return false
+                           }
 
-
+var rechercheencart=$('.V7Q8V').text(); //console.log('trouver en -2.2 : ', $('.V7Q8V').text(),' !!!!')
+ if(rechercheencart.length>0){
+                            //ScribeSpeak();SCRIBE.texteplugin($('.V7Q8V').text());
+                        //textemoirewiki=textemoirewiki+$('.yxAsKe kZ91ed').text()
+                        //console.log("textemoirewiki"+" réponse")
+                       // ScribeSpeak(textemoirewiki)
+                          //   callback()
+                          //  return false
+                           }
 
 
 
@@ -174,35 +200,36 @@ var rechercheencart=$('.V7Q8V').text(); console.log('trouver en -2 : ', $('.V7Q8
 
 var rechercheencart=$('.KpMaL').text(); console.log('trouver en -1 : ', $('.KpMaL').text(),' !!!!')
  if(rechercheencart.length>0){
-                            ScribeSpeak($('.KpMaL').text());SCRIBE.texteplugin($('.KpMaL').text());
+                            //ScribeSpeak($('.KpMaL').text());//SCRIBE.texteplugin($('.KpMaL').text());
                         
-                             callback()
-                            return false
+                           //  callback()
+                           // return false
                            }
 
 
 //console.log($('.mraOPb > span').text(),"1111111111111111110000000000001111111")
 var rechercheencart=$('.SFt5jb').text(); console.log('trouver en 0 : ', $('.SFt5jb').text(),' !!!!')
     if(rechercheencart.length>0){
-                            ScribeSpeak($('.SFt5jb').text());SCRIBE.texteplugin($('.SFt5jb').text());
+                            //ScribeSpeak($('.SFt5jb').text());SCRIBE.texteplugin($('.SFt5jb').text());
                      
-                             callback()
-                            return false
+                            // callback()
+                           // return false
     }
 
                            var rechercheencart= $('.TBdoubleColTD6 > div:nth-child(1)').text();console.log("trouvé en encart 1 : "+rechercheencart);
 
                            
                            if(rechercheencart.length>0){
-                            ScribeSpeak($('.TBdoubleColTD6 > div:nth-child(1)').text());SCRIBE.texteplugin($('.TBdoubleColTD6 > div:nth-child(1)').text());
+                           // ScribeSpeak($('.TBdoubleColTD6 > div:nth-child(1)').text());SCRIBE.texteplugin($('.TBdoubleColTD6 > div:nth-child(1)').text());
                             
                           
-                             callback()
-                            return false
+                            // callback()
+                           // return false
                            }
                           
                            else{
-                            console.log('trouvé en encart 2 : '+$('span').eq(30).text())
+                            var rechercheencart="voici ta réponse : "
+                            console.log('trouvé en encart 2.1 : '+$('span').eq(30).text())
                             var rechercheencart= $('span').eq(30).text()
                             if( $('span').eq(30).text().search(/Résultats pour/gi)>-1){ var rechercheencart= ""}
                             if( $('span').eq(30).text().search(/Essayez avec cette orthographe/gi)>-1){ var rechercheencart= ""}
@@ -243,7 +270,7 @@ var rechercheencart=$('.SFt5jb').text(); console.log('trouver en 0 : ', $('.SFt5
                                       var url1=$('.g .s cite').eq(xx).text();//console.log(url1)
 var url1=url1.replace('...','wiki')
                                         if(url1.search('wikipedia.org')>-1){
-                                              console.log("trouvé sur wikipédia : "+url1+" : emplacement sur google : "+xx)
+                                              console.log("trouvé sur wikipédia !!!!!!!!!!!!!!! : "+url1+" : emplacement sur google : "+xx)
                                               lecturewikiurl(search,url1)
                                               return false
                                         }//fin if url
